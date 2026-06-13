@@ -24,6 +24,7 @@ const StatCard = ({ title, value, icon, badge, bgClass, textClass, hasGlow = fal
 
 const Dashboard = () => {
   const navigate = useNavigate();
+  const toast = useToast();
 
   return (
     <div className="animate-fade-in max-w-6xl mx-auto px-4 md:px-0">

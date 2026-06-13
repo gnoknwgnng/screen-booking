@@ -1,4 +1,4 @@
-import { Network, DollarSign, Layers, ArrowUpRight, CheckCircle2 } from 'lucide-react';
+import { Network, DollarSign, Layers, CheckCircle2 } from 'lucide-react';
 
 import { useTilt } from '../hooks/useTilt';
 import { useToast } from '../hooks/useToast';

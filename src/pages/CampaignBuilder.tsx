@@ -106,7 +106,7 @@ const CampaignBuilder = () => {
                   { name: 'Downtown Commercial', traffic: '15k daily', desc: 'High business foot traffic.' },
                   { name: 'Main Street Mall', traffic: '25k daily', desc: 'Shoppers and weekend crowds.' },
                   { name: 'University District', traffic: '18k daily', desc: 'Students and young adults.' },
-                ].map((area, i) => (
+                ].map((area) => (
                   <div key={area.name} onClick={() => { setStep(2); toast('Area selected: ' + area.name, 'success'); }} className="p-4 md:p-6 rounded-2xl md:rounded-3xl bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)] hover:bg-[rgba(168,85,247,0.05)] hover:border-[var(--accent-primary)] cursor-pointer transition-all duration-300 group flex items-center justify-between shadow-lg">
                     <div>
                        <div className="flex items-center gap-3 mb-1">
